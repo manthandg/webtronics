@@ -1,661 +1,140 @@
 <!DOCTYPE html>
-<html lang="en-in">
-
-<head>
-  <title>Our First HTML class</title>
-
-  <link rel="stylesheet" href="style.css">
-
-  <!-- <style>
-  p{
-    background-color: magenta;
-    color: #fff;
-  }   
-</style> -->
-
-</head>
-
-<body>
-  <!-- HTML Elements :- can be defined by / consist of a start tag , some content
-    and end tag. -->
-
-  <h1>Heading one</h1>
-
-  <h2>Heading two</h2>
-  <h3>Heading three latest</h3>
-  <h4>Heading four</h4>
-  <h5>Heading five</h5>
-  <h6>Heading six</h6>
-
-  <!-- horizontal rule(thematic break) -->
-  <hr>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
-    Aliquam iste numquam deleniti soluta libero molestiae, excepturi facere
-    aspernatur. Dolorum nulla cumque voluptate fuga, et doloremque blanditiis
-    ea voluptatibus deserunt voluptatem.
-  </p>
-  <p>
-  <pre>
-    Lorem ipsum dolor sit amet   consectetur adipisicing elit.
-      Aliquam iste numquam                      
-      deleniti soluta libero molestiae, excepturi facere
-      aspernatur. Dolorum nulla 
-      
-      cumque voluptate
-
-
-       fuga, et doloremque blanditiis
-      ea voluptatibus deserunt voluptatem.
-   </pre>
-  </p>
-
-
-  <!-- 
-        1. Heading Elements -- h1 - h6 
-        2. Paragraph -- <p>  </p>
-        3. Line Break - <br/>
-        4. Horizontal rule -- <hr/>
-        5. Pre-formatted text -- <pre>  </pre>
-     -->
-
-
-  <h2> HTML Attributes</h2>
-  <!-- 
-  HTML Attributes provides additional information about the HTML Elements. 
-  -->
-
-  <!--  start tag 
-
-    1. href -- hyper reference link
-    2. src -- source - file path 
-    3. width -- to adjust the width 
-    4. height -- to adjust the height 
-    5. alt -- alternative text 
-    6. lang -- language 
-    7. title - hover title show 
-    8. style -- styling (css)
-    -->
-
-
-
-  <a href="https://www.flipkart.com/"> Click to go to flipkart website</a>
-
-
-  <p><a href="https://www.flipkart.com/"> Click to go flipkart </a></p>
-
-  <!-- 
-   <img src="https://images.bhaskarassets.com/web2images/521/2019/06/04/0521_elephanttt.jpg"> -->
-
-
-
-
-  <!-- 
-    <a href="https://www.bhaskar.com/lifestyle/happy-life/news/elephants-can-count-with-their-trunks-says-scientist-01561543.html">   <img src="hathi4.jpg" width="400px" height="300px">  </a> -->
-
-
-
-  <img src="hathi4.jpg" width="400px" height="300px" alt="African Elephant" title="African Elephant">
-
-
-
-  <p style="color: red; text-align: center; background-color: black; "> This is some demo paragraph</p>
-
-  <hr>
-
-  <h2> HTML Formatting Elements</h2>
-
-
-  <p> My name is <b> Kaushlesh</b> </p>
-
-  <p> My name is <strong> Kaushlesh</strong> </p>
-
-
-  <p> My name is <i> HTML</i> </p>
-
-
-
-  <p> My name is <em> HTML</em> </p>
-
-
-  <p> My name is <mark> Kaushlesh </mark> </p>
-
-
-  <p> The original price of dress is <ins>999</ins> <del> 1999</del> </p>
-
-  <!--  Subscript -->
-  <p> The water formula is H<sub>2</sub>O </p>
-
-  <!-- Superscript -->
-
-  <p> The mathematical formula is A<sup>2</sup>+ B<sup>2</sup> </p>
-
-  <hr>
-
-
-  <h2> HTML Quotations and Citations Elements </h2>
-
-
-  <p> This book is written by <q> Mr. Henry</q> </p>
-
-
-  <blockquote> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dignissimos laboriosam debitis eum tempore
-    omnis, iusto, nulla aspernatur ea iure accusamus commodi reiciendis corporis tenetur reprehenderit error! Unde,
-    doloribus repellat.</blockquote>
-
-
-  <abbr title="World Health Oragnisation">WHO</abbr>
-
-  <address> TGC Animation and Multimedia , <br> Preet Vihar - East Delhi - 110092</address>
-
-  <!-- Cite -- Title of a work  -->
-
-  <p> I have written a book named <cite>The Poetry</cite></p>
-
-
-
-  <hr>
-
-  <h2> HTML Class and ID Attribute </h2>
-
-
-  <!-- 
-    class -- multiples -- html element -- . 
-    ID --- unique -- html element -- # 
-   -->
-
-
-  <p class="para1"> This is paragraph 1 </p>
-
-  <p id="para2"> This is paragraph 2 </p>
-
-  <p class="para1 para3"> This is paragraph 3 </p>
-
-  <p id="para2 para4"> This is paragraph 4 </p>
-
-
-  <hr>
-
-
-  <h2> HTML Target Attribute </h2>
-
-  <a href="https://amazon.in" target="_blank">Click to go to amazon website</a>
-
-  <hr>
-
-  
-
-
-  <table>
-   <caption>  <h2> HTML Tables</h2></caption>
-
-   <col span="1" style="background-color: seagreen;">
-   <col span="1" style="background-color: skyblue;">
-
-    <tr class="thead">
-
-
-
-      <th>Name</th>
-      <th colspan="2">Email & Job title</th>
-      <!-- <th> Job Title</th> -->
-
-    </tr>
-
-
-
-
-
-    <tr>
-      <td> Shivam</td>
-      <td> shivam@gmail.com</td>
-      <td rowspan="3"> Website Developer</td>
-    </tr>
-
-    <tr>
-      <td> Shivam</td>
-      <td> shivam@gmail.com</td>
-      <!-- <td> Website Developer</td> -->
-    </tr>
-
-    <tr>
-      <td> Shivam</td>
-      <td> shivam@gmail.com</td>
-      <!-- <td> Website Developer</td> -->
-    </tr>
-
-
-
-
-
-
-
-  </table>
-
-  <hr>
-
-  <h2> HTML List </h2>
-
-  <!-- 
-    types of list in html 
-    1. Ordered list -- <ol>  </ol>
-    2. Unordered list -- <ul>  </ul>
-    3. Description list -- <dl>  /dl>
-   -->
-
-<!-- ordered list -->
-
-   <ol>
-    <li> Coffe</li>
-    <li> Tea</li>
-    <li>Sugar </li>
-   </ol>
-
-<!-- Unordered List -->
-   <ul>
-    <li> Graphic Design</li>
-    <li> Web Design</li>
-    <li> ui/ux Design</li>
-   </ul>
-
-<!-- Description list -->
-
-<dl>
-
-  <dt>Coffe</dt>
-  <dd>Coffe is made up of Coffe powder and milk</dd>
-
-</dl>
-
-
-
-<!-- <nav> 
-<ul>
-  <li><a href="#">MEN</a></li>
-  <li><a href="#">WOMEN</a></li>
-  <li><a href="#">KIDS</a></li>
-  <li><a href="#">BEAUTY</a></li>
-</ul>
-</nav> -->
-
-
-<ol>
-  <li>Fruits
-
-    <ol class="roman">
-      <li>Mango</li>
-      <li>Orange</li>
-    </ol>
-  </li>
-
-
-  <li>Vegetables 
-    <ol class="alpha">
-      <li>Cabbage</li>
-      <li>Capsicum
-        <ul class="circle">
-          <li>Green</li>
-          <li>Red</li>
-          <li>Yellow</li>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="bs/bootstrap.min.css" /> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar bg-dark text-white">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://tgceastdelhi.com/Assets/Images/logo-1-1.png"
+            alt="Logo"
+            width="200px"
+            height=""
+            class="d-inline-block align-text-top"
+          />
+        </a>
+
+        <ul class="pt-3">
+          <li class="list-group-item d-inline-block">
+            <a href="#" class="text-white text-decoration-none px-2 fs-5"
+              >Home</a
+            >
+          </li>
+          <li class="list-group-item d-inline-block">
+            <a href="#" class="text-white text-decoration-none px-2 fs-5"
+              >Contact</a
+            >
+          </li>
+
+          <li class="list-group-item d-inline-block dropdown">
+            <a
+              href="#"
+              class="text-white text-decoration-none px-2 fs-5 dropdown-toggle"
+              data-bs-toggle="dropdown"
+            >
+              Services
+            </a>
+
+            <ul class="dropdown-menu bg-danger">
+              <li>
+                <a class="dropdown-item text-white" href="#">Action</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-white" href="#">Another action</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-white" href="#"
+                  >Something else here</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li class="list-group-item d-inline-block">
+            <a href="#" class="text-white text-decoration-none px-2 fs-5"
+              >About</a
+            >
+          </li>
+          <li class="list-group-item d-inline-block">
+            <a href="#" class="text-white text-decoration-none px-2 fs-5"
+              >More</a
+            >
+          </li>
         </ul>
-      </li>
-    </ol>
-  </li>
-</ol>
 
-<hr>
+        <a href="tel:1800 1020 418 " class="btn btn-danger"
+          >Toll Free: 1800 1020 418
+        </a>
+      </div>
+    </nav>
 
-<h2>HTML Block and Inline Elements</h2>
+    <div class="container-fluid banner bg-dark">
+      <div class="container bg-info h-100">
+        <div class="row h-100">
+          <div class="col-7 students-banner">
+            <div class="text-content px-4">
+              <h2 class="btn btn-dark mx-auto w-100">
+                15 YEARS OF TRUST, 14,000+ STUDENTS, 4.8/5 RATING BY STUDENTS
+              </h2>
 
+              <a href="#" class="btn btn-primary border d-block w-50 mx-auto">
+                EXPLORE ALL COURSES</a
+              >
+            </div>
+          </div>
 
-<!-- 
-  Block Level Elements :  those starts with the new line 
-  and contain 100% of the available width 
- -->
+          <div class="col-5 form-image">
+            <!-- <h2 class="text-center mt-3">Get in Touch With Us</h2> -->
+            <form action="" class="px-5">
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter your Name"
+                />
+              </div>
 
- <h4>Shivam</h4>
- <h4>Deepak</h4>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter your email"
+                />
+              </div>
 
+              <div class="mb-3">
+                <input
+                  type="number"
+                  class="form-control"
+                  placeholder="Enter your number"
+                />
+              </div>
 
-<!-- 
-  Inline Level Elements :  those starts with the same line 
-  and contain by default width 
- -->
-
-
- <a href="#">shivam</a>
-
- <a href="#">deepak</a>
-
-
-
- <figure>
-  <img src="hathi4.jpg" width="400px" height="300px">
-  <figcaption>African Elephant</figcaption>
- </figure>
-
-
- <noscript>
-
- </noscript>
-
-<!-- Products section starts here  -->
- <section   id="products">
-  <div class="text-top">
-    <h2></h2>
-    <p></p>
-  </div>
-
-  <div class="all-containers">
-    <div class="child-container">
-      <img src="" alt="">
-      <h4></h4>
-      <h2></h2>
-    </div>
-    <div class="child-container">
-      <img src="" alt="">
-      <h4></h4>
-      <h2></h2>
-    </div>
-    <div class="child-container">
-      <img src="" alt="">
-      <h4></h4>
-      <h2></h2>
-    </div>
-    <div class="child-container">
-      <img src="" alt="">
-      <h4></h4>
-      <h2></h2>
-    </div>
-    <div class="child-container">
-      <img src="" alt="">
-      <h4></h4>
-      <h2></h2>
+              <div class="mb-3">
+                <a href="#" class="btn btn-primary m-auto w-100"> Submit</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
 
-
-    
-  </div>
- </section>
-
-<!-- Products section ends here  -->
- 
-
- <h2></h2>
- <p> </p>
-
- <img src="" alt="">
- <h4> </h4>
- <h2> </h2>
-
- <img src="" alt="">
- <h4> </h4>
- <h2> </h2>
-
-
- <img src="" alt="">
- <h4> </h4>
- <h2> </h2>
-
-
- <img src="" alt="">
- <h4> </h4>
- <h2> </h2>
-
-
-
-
-  
-
-  <hr>
-
-  <h2> HTML Block and Inline Elements   </h2>
-
-
-  <!-- 
-    Block level element :-- elements with starts from the new line 
-    and 
-    Contains 100% of the available width 
-   -->
-
-
-   <h1>  Hello heading 1 </h1>
-   <h2> Hello heading 2 </h2>
-
-
- <!-- 
-    Block level element :-- elements with starts from the same line 
-    and 
-    Contains by default content width  
-   -->
-
-
-   <a href="#">Click to go to google </a>
-
-   <a href="#">Click to go to google </a>
-
-
-   <dl>
-    <dt>HTML</dt>
-    <dd>Hyper text markup language </dd>
-   </dl>
-
-
-
-   <figure>
-    <img src="" alt="">
-    <figcaption></figcaption>
-   </figure>
-
-
- <form>
-
-
-
-  <label>Enter Your Name </label> 
-  <input type="text" placeholder="enter text here"> <br> <br>
-
-  <label>Enter Your Email </label> 
-  <input type="email"> <br> <br>
-
-
-  <label>Enter Your password </label> 
-  <input type="password">
-   <br> <br>
-
-  <label>Enter Your Number </label> 
-  <input type="number">
-  <input type="tel"> <br> <br>
-
-  <label>Enter Your DOB </label> 
-  <input type="date"> 
-  <input type="datetime">
-  <input type="datetime-local">
-  <input type="week">
-  <input type="month">
-  
-  <input  style="border: 2px solid;">
-  
-  <br> <br>
-
-  <label>Enter Your URL </label> 
-  <input type="url"> <br> <br>
-
-
-  <label>Select your Gender </label> 
-  <select>  
-    <option value="Male"> Male </option>
-    <option value="Female"> Female </option>
-    <option value="Other"> Other </option>
-  </select><br> <br>
-
- <p> 
-  <label>Positions </label> 
-
-  <input type="checkbox"> Junior 
-  <input type="checkbox"> Mid level 
-  <input type="checkbox"> Senior   
-</p>  
-
-
-<p> 
-<label>Choose  Course </label> 
-
-<input type="radio"> Junior 
-<input type="radio"> Mid level 
-<input type="radio"> Senior   
-</p>
-
-
-<p> 
-  <label> Rate Us  </label> 
-  
-  <input type="range">
-  
-  </p>
-
-
-  <p> 
-    <label> Enter Message </label>  <br>  
-    
-  <textarea  cols="50" rows="5"></textarea>
-    
-    </p>
-
-
-    <p> 
-      <label> Choose Color </label>  
-      <input type="color">
-      <input type="file">
-   
-      
-      </p>
-
-      <p> 
-        <label> Upload your resume </label>  
-
-        <input type="file">
-     
-        
-        </p>
-  
-
-
-  <div>
-    <!-- <button> SUBMIT</button> -->
-    <input type="button" value="Submit">
-
-    <input type="reset" value="Reset">
-  </div>
-
-
-
-
- </form>
-
-
- <hr>
-
-
- <h2> HTML Inline ELements </h2>
- <!-- 
-  ELements with starts from same line and takes by default content width
-  -->
-
-  <a href="#">click to go google</a>
-
-  <bdo dir="rtl"> HEllo shivam </bdo>
-
-  <button type="button">SUBMIT</button>
- 
-
-  <p>
-    The background color property in css is written as <code> background-color</code>
-  </p>
-
-
-  <p>
-    <dfn>HTML</dfn> is used to define the structure of a webpage
-  </p>
-
-<p>
-  The shortcut key to copy the text is <kbd>Ctrl + C</kbd>
-</p>
-
-<p>
-  The area in mathematics can be calculated as  <var>lxbxh</var>
-</p>
-
-<p> 
-  The current IST is <time>10:35</time>
-</p>
-
-
-<p>
-  The final output of the program is <output>  A B C D E F </output>
-</p>
-
-
-<p>
-  original name is SHIVAM <small>SHIVAM</small>
-</p>
-
-
- <iframe src="shivam.html" frameborder="0"></iframe>
-
-
- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.7003803878238!2d77.28909007541166!3d28.638740683798957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb56d7e2e6ad%3A0x17dd8c6a407d70c2!2sTGC%20Animation%20and%20Multimedia%20Preet%20Vihar!5e0!3m2!1sen!2sin!4v1718773839597!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-<hr>
-<br>
-
-
-<img src="workplace.jpg" usemap="#newmap">
-
-
-<map name="newmap">
-<area shape="rect" coords="34,47,271,346" href="https://amazon.com" alt="">
-<area shape="circle" coords="339,301,47" href="https://myntra.com" alt="">
-
-</map>
-
-
-
-
-  <!-- 
-    Next class -- 
-
-    1. Check all the work previous done
-    2. Practical and orally test 
-    3. Github 
-
-   -->
-
-
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-
-
-
-
-
-
-
-
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
